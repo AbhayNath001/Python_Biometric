@@ -46,7 +46,7 @@ matching_scores = [len(match) for match in matches]
 best_match_index = np.argmax(matching_scores)
 
 # Define a threshold for a "good" match (you can adjust this threshold)
-threshold = 150
+threshold = 250
 
 # Check if the best match exceeds the threshold
 if matching_scores[best_match_index] > threshold:
